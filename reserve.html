@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reserve.css">
+    <title>Document</title>
+</head>
+<body onload='document.form1.text1.focus()'>
+    <header class="headerbar">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                  <img src="logo/logo transp.svg" class="navlogo">
+                JoGeek
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="#" target="_blank">HOME</a>
+              <a href="#" target="_blank">ABOUT US</a>
+              <a href="#" target="_blank">RESERVATION </a>
+              <a href="service.html" target="_blank">SERVICE</a>
+              <a href="#" target="_blank">CONTACT US</a>
+            </div>
+          </div>
+          <div class="text-header">Reservation</div>
+          <div class="text-header1">Everything You <br> Need Is Right Here!</div>
+        </header>
+        <div class="count-res">
+          <div class="count-forms">
+            <div class="topnav">
+            <a href="#">Round-Trip</a>
+            <a href="#">One way ticket</a>
+            <a href="#">Multi-destinations</a>
+          </div>
+          <div class="cont1">
+          <input type="text" class="inputa" placeholder="Origin">
+          <input type="text" class="inputb" placeholder="Destination">
+        </div>
+          <div class="cont1">
+          <input type='text' name='text1' class="inputa" placeholder="Departs the">
+          <input type="text" class="inputb" placeholder="Return on">
+        </div>
+          <div class="cont2">
+          <input type="text" class="inputa" placeholder="!Adult !Child">
+          <input type="checkbox" checked="checked" class="chk" > <label > Vols directs</label>
+        </div>
+          <div class="searc">
+            <a type="submit" name="submit" value="Submit" onclick="validatedate(document.text1)" class="SearButton">Search Flights</a>
+            <a href="#" class="SearButtonhotel">Search Flight Hotel</a>
+          </div>
+        </div>
+        <div class="avant"> 
+          <h1 class="rese">Why Reserve with GO Voyages?</h1>
+          <table class="rese1">
+            <tr>
+              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><p>Intelligent search engine</p></td>
+            </tr>
+          </table>
+          <table class="rese1">
+            <tr>
+              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><p>Simple and secure Réservation</p></td>
+            </tr>
+          </table>
+          <table class="rese1">
+            <tr>
+              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><p>24/7 customer service</p></td>
+            </tr>
+          </table>
+        </div>
+        </div>
+        <!--prix-->
+        <div class="dist">
+        <div class="dista">
+          <img src="img/pur.png" class="pur">
+          <p class="para">paris-<br>phuket</p>
+          <p class="prix">490€</p>
+          <span class="flech"></span>
+        </div>
+        <div class="distb">
+          <img src="img/ho.png" class="pur">
+          <p class="para">Paris-<br>Ho-Chi-Minh-Ville</p>
+          <p class="prix2">500€</p>
+          <span class="flech"></span>
+        </div>
+        <div class="distc">
+          <p class="para1">Abidjan-Casablanca</p>
+          <p class="prix3">500€</p>
+          <span class="flech1"></span>
+        </div>
+        <div class="distd">
+          <p class="para1">Paris-Abidjan</p>
+          <p class="prix3">800€</p>
+          <span class="flech1"></span>
+        </div>
+        <div class="distc">
+          <p class="para1">Paris-Tokyo</p>
+          <p class="prix3">700€</p>
+          <span class="flech1"></span>
+        </div>
+        <div class="distd">
+          <p class="para1">lyon-Istanbul</p>
+          <p class="prix3">999€</p>
+          <span class="flech1"></span>
+        </div>
+        </div>
+        <div class="semore"><a href="#" class="semoreButton">See More</a></div>
+        <script src="service.js"></script>
+</body>
+</html>
