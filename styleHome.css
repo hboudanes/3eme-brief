@@ -1,0 +1,492 @@
+*{
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+
+overflow-x:hidden;
+}
+
+
+header{
+
+  background-image: url(image/dubai_33972181_1920.png);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 30px;
+
+}
+
+nav ul li{
+
+ display: inline-block;
+
+
+}
+nav ul li a{
+  color: #EFD6AC;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-decoration: none;
+
+ 
+  }
+
+  .logo{
+     float: left;
+  }
+   .info{
+     float: left;
+     margin-top: 30px;
+     margin-left: 60px;
+     font-size: 20px;
+  }
+  .clean{
+
+    clear: both;
+  }
+  header h1{
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #fff;
+  }
+
+  .checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+/*start slide*/
+#slider{
+
+  margin: auto;
+  width: 1000px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-top: -120px;
+  overflow: hidden;
+  
+
+}
+
+   #slider figure {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+  
+  }
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -20%;
+  }
+  45% {
+    left: -30%;
+  }
+  50% {
+    left: -40%;
+  }
+  70% {
+    left: -50%;
+  }
+  75% {
+    left: -60%;
+  }
+  95% {
+    left: -70%;
+  }
+  100% {
+    left: -71%;
+  }
+  }
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    
+    margin: auto;
+    margin-bottom: 12%;
+  }
+  .column1,.column2,.column3,.column4{
+    flex-basis: 25%;
+    
+    }
+
+
+
+   
+
+
+
+
+
+/*start part2 */
+.content2{
+	background-image: url(image/NoPath___Copy__49_.png);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  overflow: visible;
+  margin-bottom: 4%;
+  
+
+}
+.in2{
+	background: #eee;
+	width: 80%;
+	margin: auto;
+padding-top: 6%;
+	position: relative;
+	top: -22%;
+  
+  
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.divimage{
+	flex-basis: 50%;
+	height: 100%;
+}
+.divimage img{
+  width: 100%;
+  height: 100%;
+}
+.divtext{
+	flex-basis: 50%;
+  
+	padding-top: 30px;
+}
+.figure2{
+	display: flex;
+	flex-wrap: wrap;
+padding-top: 30px;
+}
+.im1,.im2,.im3,.im4{
+	flex-basis: 25%;
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 900px){
+	.divimage{
+	flex-basis: 100%;
+	
+}
+.divtext{
+	flex-basis: 100%;
+	order: 1;
+  padding-top: 0;
+}
+.divimage img{
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+.im1,.im2,.im3,.im4{
+ width: 50%;
+  height: 50%;
+  margin-top: -5%;
+}
+.figure2{
+
+}
+.in2{
+  top: -10%;
+}
+}
+#maps{
+	display: flex;
+	flex-wrap: wrap;
+}
+.map1{
+	
+	flex-basis: 50%;
+}
+.map2{
+	flex-basis: 50%;
+}
+@media(max-width: 500px){
+	.map1{
+	flex-basis: 100%;
+	
+}
+.map2{
+	flex-basis: 100%;
+	order: 1;
+}}
+
+
+#slider2{
+
+  
+  width: 100%;
+  height: 230px;
+
+  overflow: hidden;
+
+}
+
+   #slider2 figure {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+  
+  }
+  .fa-bars{
+    color: #EFD6AC
+  }
+
+
+  .section7{
+
+     display: flex;
+     flex-wrap: wrap;
+    
+   }
+   .section7 h1{
+    color: #688095;
+  }
+   .ft{
+    background-image: url(image/twil.png) ;
+    height: 136px;
+    padding: 3%;
+   }
+   .ft1con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    vertical-align: middle;
+    margin: auto;
+    
+
+   }
+   .ft1con input{
+  flex-basis: 70%
+  height: 61px;
+  width: 300px;
+  
+
+  text-align: center;
+  
+  
+
+
+   }
+   .ft1con button{
+    flex-basis: 25%;    
+  background:#C49D48;
+  border:none; 
+  height: 61px;
+  width: 100px;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  
+  
+}
+
+@media (max-width: 900px){
+    .ft1con input{
+    flex-basis: 100%;
+    height: 61px;
+
+
+
+   }
+   .ft1con button{
+    flex-basis: 100%;
+
+   }
+   }
+   
+  .ft1{
+
+    flex-basis: 33%;
+    text-align: center;
+    margin-top: 90px;
+  
+  }
+
+  .ft2{
+
+    flex-basis: 33%;
+    text-align: center;
+    margin-top: 90px;
+       
+
+  }
+  .ft2 ul{
+     list-style: none;
+
+  }
+  .ft2 ul a{
+    text-decoration: none;
+    color: #AAA9A9;
+  }
+  .ft2 ul li a:hover{
+    color: #EFD6AC;
+  }
+
+ .ft3{
+
+    flex-basis: 33%;
+    text-align: center;
+    margin-top: 90px;
+
+  }
+  .lastft{
+    background: #688095;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  .lastul ul li{
+    float: left;
+    list-style: none;
+    padding-right: 3%
+  }
+  .lastspan{
+    flex-basis: 50%;
+  }
+  .lastul{
+    flex-basis: 50%;
+
+  }
+
+
+    @media (max-width: 800px){
+
+
+  .column1,.column2{
+    flex-basis: 100%;
+    
+    }
+  .column3,.column4{
+      display: none;
+    }
+
+
+
+  .ft1{
+
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+  
+  }
+
+    .ft2{
+    order: 1;
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+       
+
+  }
+
+ .ft3{
+
+    order: 2;
+    flex-basis:100%;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+    }
+
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section7{
+    flex-basis: 100%
+  }
+  .lastfooter{
+    flex-basis: 100%
+    color : #fff;
+    width: 100%
+  }
+@media(max-width: 900px){
+  .section7{
+    flex-basis: 100%
+  }
+  .lastfooter{
+    flex-basis: 100%
+    order:1;
+  }
+}

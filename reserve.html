@@ -14,7 +14,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
               <div class="nav-title">
-                  <img src="logo/logo transp.svg" class="navlogo">
+                  <img src="logo2/logo transp.svg" class="navlogo">
                 JoGeek
               </div>
             </div>
@@ -27,11 +27,14 @@
             </div>
             
             <div class="nav-links">
-              <a href="#" target="_blank">HOME</a>
-              <a href="#" target="_blank">ABOUT US</a>
-              <a href="#" target="_blank">RESERVATION </a>
-              <a href="service.html" target="_blank">SERVICE</a>
-              <a href="#" target="_blank">CONTACT US</a>
+              <a href="home.html">Home</a>
+              <a href="enver.html">Revue</a>
+              <a href="about.html">About US</a>
+              <a href="promo.html">Promo</a>
+              <a href="gallerie.html">Gallery</a>
+              <a href="contact1.html">Contact</a>
+              <a href="service.html">Services</a>
+              <a href="reserve.html">Reservation</a>
             </div>
           </div>
           <div class="text-header">Reservation</div>
@@ -49,15 +52,15 @@
           <input type="text" class="inputb" placeholder="Destination">
         </div>
           <div class="cont1">
-          <input type='text' name='text1' class="inputa" placeholder="Departs the">
-          <input type="text" class="inputb" placeholder="Return on">
+          <input type='text' name='text1' id="Date" class="inputa" placeholder="Departs the">
+          <input type="text" class="inputb"  id="Date2" placeholder="Return on">
         </div>
           <div class="cont2">
-          <input type="text" class="inputa" placeholder="!Adult !Child">
-          <input type="checkbox" checked="checked" class="chk" > <label > Vols directs</label>
+          <input type="text" class="inputa" id="apr" placeholder="!Adult !Child">
+           <label class="vols"><input type="checkbox" checked="checked" class="chk" > Vols directs</label>
         </div>
           <div class="searc">
-            <a type="submit" name="submit" value="Submit" onclick="validatedate(document.text1)" class="SearButton">Search Flights</a>
+            <a type="submit" name="submit" value="Submit" onclick="validation()" class="SearButton">Search Flights</a>
             <a href="#" class="SearButtonhotel">Search Flight Hotel</a>
           </div>
         </div>
@@ -65,19 +68,19 @@
           <h1 class="rese">Why Reserve with GO Voyages?</h1>
           <table class="rese1">
             <tr>
-              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><img src="logo2/icon.svg" alt="" class="icon"></td>
               <td><p>Intelligent search engine</p></td>
             </tr>
           </table>
           <table class="rese1">
             <tr>
-              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><img src="logo2/icon.svg" alt="" class="icon"></td>
               <td><p>Simple and secure Réservation</p></td>
             </tr>
           </table>
           <table class="rese1">
             <tr>
-              <td><img src="logo/icon.svg" alt="" class="icon"></td>
+              <td><img src="logo2/icon.svg" alt="" class="icon"></td>
               <td><p>24/7 customer service</p></td>
             </tr>
           </table>
@@ -86,13 +89,13 @@
         <!--prix-->
         <div class="dist">
         <div class="dista">
-          <img src="img/pur.png" class="pur">
+          <img src="img2/pur.png" class="pur">
           <p class="para">paris-<br>phuket</p>
           <p class="prix">490€</p>
           <span class="flech"></span>
         </div>
         <div class="distb">
-          <img src="img/ho.png" class="pur">
+          <img src="img2/ho.png" class="pur">
           <p class="para">Paris-<br>Ho-Chi-Minh-Ville</p>
           <p class="prix2">500€</p>
           <span class="flech"></span>
@@ -120,5 +123,64 @@
         </div>
         <div class="semore"><a href="#" class="semoreButton">See More</a></div>
         <script src="service.js"></script>
+        
+  </div>
+
+</div>
+</div>
+ <!--start footer-->
+ <div class="ft">
+  <div class="ft1con">
+  <input type="text" placeholder="enter your email">
+  <button type="button">send</button>
+  </div>
+</div>
+
+
+<div class="footer">
+
+<div class="f1">
+  <img src="img2/logo transp.png" width="60px" height="60px" style="margin-bottom: 20px;">
+ <p>Fusce dapibus, tellus ac cursus commodo,<br>
+  tortor mauris. Fusce dapibus, tellus ac cursus <br>
+  commodo, tortor mauris. </p>
+</div>
+
+<div class="f2">
+    
+    <ul>
+        <div class="h2"><h2>Quick Links</h2></div>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>Home</a></li>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>About US</a></li>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>Services</a></li>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>Promo</a></li>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>Gallery</a></li>
+        <li><a href="#"> <i class="fa fa-arrow-right"></i>Contact</a></li>
+        
+    </ul>
+    
+ </div>
+
+ <div class="f3">
+  <div><h2>Contact us</h2></div>
+  <p>Feel free to get in touch with us via phone or send<br>
+    us a message</p>
+  <h3>+1 800 123 1234</h3>
+  </div>
+</div>
+
+<div class="lastfooter">
+  <div class="lastft">
+    <div class="lastspan">@Copyright 2020. All Right Reserved</div>
+    <div class="lastul">
+      <ul>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </ul>
+      
+    </div>
+  </div>
+</div>
+   
 </body>
 </html>

@@ -1,0 +1,257 @@
+*{
+
+  box-sizing: border-box;/*start content*/
+  /*client div*/
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+
+overflow-x:hidden;
+}
+
+
+header{
+
+  background-image: url(image/dubai_33972181_1920.png);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 30px;
+
+}
+
+nav ul li{
+
+ display: inline-block;
+
+
+}
+nav ul li a{
+  color: #EFD6AC;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-decoration: none;
+
+ 
+  }
+
+  .logo{
+     float: left;
+  }
+   .info{
+     float: left;
+     margin-top: 30px;
+     margin-left: 60px;
+     font-size: 20px;
+  }
+  .clean{
+
+    clear: both;
+  }
+  header h1{
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #fff;
+  }
+
+  .checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+/*start content*/
+/*start client div*/
+.clients{
+  display: flex;
+  flex-wrap: wrap;
+  
+  text-align: center;
+}
+
+/*
+.cl1 section{
+  background: #fff;
+  color: #000;
+  margin-top: 63%;
+}
+*/
+.cl1,.cl2,.cl3{
+  flex-basis: 33%;
+  color: #000;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media(max-width: 900px){
+  .cl1{
+    flex-basis: 100%;
+  }
+  .cl2{
+    flex-basis: 100%;
+    order: 1
+  }
+  .cl3{
+    flex-basis: 100%;
+    order: 2
+  }
+}
+/*end client div*/
+/*testimo*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background: #EFD6AC;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #EFD6AC;
+  margin-bottom: 20px;
+}
+
+
+@media(max-width:960px) {
+.col{
+  flex: 100%;
+  
+}
+}
+.marque{
+  text-align: center;
+}
+.marque i{
+  color: #EFD6AC;
+  font-size: 32px;
+}
+.marque h1{
+  color: #688095;
+  padding: 20px 0;
+}
+.marque h2{
+  color: #688095;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+
+
+/*start footer*/
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.footer ul{
+  list-style: none;
+}
+.footer li a{
+  text-decoration: none;
+  color: #AAA9A9;
+}
+.footer h1{
+  color: #688095;
+}
+.lastfooter ul li{
+  float: left;
+  text-align: center;
+}
+.lastfooter{
+  background: #688095;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+/*end footer*/
+
+.content{
+  text-align: center;
+}
+.content h1{
+  margin-bottom: 15px;
+  color: #688095;
+}
